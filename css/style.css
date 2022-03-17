@@ -655,6 +655,12 @@ button:focus {
         margin-top: -15vh;
     }
 
+    #IIIT-logo {
+        position: absolute;
+        width: 100px;
+        overflow: hidden;
+    }
+
     .timeline-box {
         width: 90%;
         left: 10% !important;
