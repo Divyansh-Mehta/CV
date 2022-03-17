@@ -5,14 +5,31 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link href="./images/resume.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <title>
         Divyansh Mehta
     </title>
 </head>
 <body>
-    <header id="header1">
+    <header id="body-header">
         <nav>
-            <ul class = "horizontal-list text-center">
+            <div class = "dropdown-menu text-right">
+                <div class="bars">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class ="dropdown-list nav-menu">
+                    <ul class = "no-list-style">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    </div>
+
+             </div> 
+            <ul class = "no-list-style horizontal-list text-center nav-menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -20,10 +37,14 @@
                 <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+        </div>
         </nav>
 
 
-        <h1 id="name" class="text-center">Divyansh Mehta</h1>
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="my-name">Divyansh Mehta</h1>
+            </div>
 
 
         <div>
@@ -40,7 +61,7 @@
 
     <main>
         <section id="about">
-            <div id="my-photo">
+            <div id="my-image">
                 <img src="./images/my-photo.jpg" alt="My photo">
             </div>
             <p id="about-para">
@@ -218,11 +239,12 @@
 
 
 
-    <footer id="contact">
+    <footer>
+        <section id="contact">
         <div>
             <h2 class="mb75px" id="footer-heading">
                 <span><i class="far fa-address-card"></i></span>
-                <span>CONTACT</span>
+                <span> CONTACT </span>
             </h2>
         </div>
         <div id="contact-container">
@@ -260,6 +282,7 @@
             <li><a href="https://leetcode.com/kodirovshchik/" target="_blank" id="leetcode"></a></li>
             <li><a href="https://github.com/Divyansh-Mehta" target="_blank" id="github"></a></li>
         </ul>
+    </section>
     </footer>
 </body>
 </html>
