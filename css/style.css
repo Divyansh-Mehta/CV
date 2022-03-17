@@ -621,6 +621,17 @@ button:focus {
 
 @media only screen and (max-width: 572px) {
     
+    #my-image {
+        height: 12rem;
+        width: 12rem;
+        margin: auto;
+        margin-top: -10vh;
+    }
+
+    #name-social-container {
+        margin-top: 2vh;
+    }
+
     .timeline-box {
         width: 100%;
         left: 10% !important;
@@ -640,6 +651,9 @@ button:focus {
 
 @media only screen and (max-width: 768px) {
 
+    #my-image {
+        margin-top: -15vh;
+    }
 
     .timeline-box {
         width: 90%;
