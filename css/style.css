@@ -657,7 +657,7 @@ button:focus {
 
     #IIIT-logo {
         position: absolute;
-        width: 100px;
+        width: 100px !important;
         overflow: hidden;
     }
 
